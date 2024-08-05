@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-section span{
+    padding: 5px;
+    background-color: #a0ffa5;
+    border: 12px;
+    border-radius: 4000px;
+    color: #45a049;
+    font-size: small;
+
+}
+.contact-section h1 {
+    color: #333;
+}
+
+.contact-section p {
+    color: #666;
+}
+
+.contact-item {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    flex: 1 1 40%;
+}
+
+.contact-item .icon {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #4CAF50;
+}
+
+.contact-item h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.contact-item p {
+    margin: 5px 0 0;
+    color: #333;
+}
+
+.contact-item a {
+    border: #45a049;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #4CAF50;
+    font-size: 20px;
+}
+
+.form-section {
+    flex: 1;
+    background: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+    </style>
+    <title>tugas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-section">
+            <span>contact</span>
+            <h1>Let's stay connected</h1>
+            <p>It's never been easier to get in touch with Flex. Call us, use our live chat widget or email and we'll get back to you as soon as possible!</p>
+        </div>
+        <div class="btn">
+            <button a href="button" style="color: #ffffff;background-color: #61ce66; border: none;padding: 10px;border:10px;border-radius: 7px;">open position</button>
+            <button href="about us" style="padding: 10px;border: none;border-radius: 7px;">about us</button>
+        </div>
+    </div>
+            <div class="contact-options">
+                <div class="contact-item">
+                    <div class="icon">&#x2709;</div>
+                    <div class="info">
+                        <h2>Email</h2>
+                        <p>contact@flex.co</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">&#x260E;</div>
+                    <div class="info">
+                        <h2>Phone</h2>
+                        <p>085794518490</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">&#x1F3E2;</div>
+                    <div class="info">
+                        <h2>Office</h2>
+                        <p>jl.taruna v no.15<br>New York, NY 10013</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">&#x1F310;</div>
+                    <div class="info">
+                        <h2>Socials</h2>
+                        <div class="social-icons">
+                            <a href="#">&#x1F465;</a>
+                            <a href="#">&#x1F426;</a>
+                            <a href="#">&#x1F4F1;</a>
+                            <a href="#">&#x1F4E7;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-section">
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="pat@shuffle.dev">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message..."></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
